@@ -1,6 +1,7 @@
 {
     "hotelRooms":[ 
     {
+        "id": 1,
         "name": "Blissful Haven",
         "price": 135,
         "image": "https://placehold.jp/150x150.png",
@@ -12,6 +13,7 @@
         ]
     },
     {
+        "id": 2,
         "name": "Celestial Chamber",
         "price": 129,
         "image": "https://placehold.jp/150x150.png",
@@ -23,6 +25,7 @@
         ]
     },
     {
+        "id": 3,
         "name": "Majestic Bliss",
         "price": 177,
         "image": "https://placehold.jp/150x150.png",
@@ -34,6 +37,7 @@
         ]
     },
     {
+        "id": 4,
         "name": "Angelic Abode",
         "price": 175,
         "image": "https://placehold.jp/150x150.png",
@@ -45,6 +49,7 @@
         ]
     },
     {
+        "id": 5,
         "name": "Blissful Haven",
         "price": 135,
         "image": "https://placehold.jp/150x150.png",
@@ -55,6 +60,7 @@
         ]
     },
     {
+        "id": 6,
         "name": "Dreamy Sanctuary",
         "price": 888,
         "image": "https://placehold.jp/150x150.png",
@@ -65,6 +71,7 @@
         ]
     },
     {
+        "id": 7,
         "name": "Oasis of Luxury",
         "price": 777,
         "image": "https://placehold.jp/150x150.png",
