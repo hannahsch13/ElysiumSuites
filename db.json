@@ -1,0 +1,79 @@
+{
+    "hotelRooms":[ 
+    {
+        "name": "Blissful Haven",
+        "price": 135,
+        "image": "",
+        "description":"",
+        "likes": 28,
+        "reviews": [
+            "Lovely room!",
+            "The bed was so cozy!"
+        ]
+    },
+    {
+        "name": "Celestial Chamber",
+        "price": 129,
+        "image": "",
+        "description":"",
+        "likes": 67,
+        "reviews": [
+            "Great aesthetics!",
+            "I didn't want to go home!"
+        ]
+    },
+    {
+        "name": "Majestic Bliss",
+        "price": 177,
+        "image": "",
+        "description":"",
+        "likes": 45,
+        "reviews": [
+            "Very cozy!",
+            "Felt like I was royality here!"
+        ]
+    },
+    {
+        "name": "Angelic Abode",
+        "price": 175,
+        "image": "",
+        "description":"",
+        "likes": 28,
+        "reviews": [
+            "A warm welcomie vibe! Love it!",
+            "Great experience will be booking room again!"
+        ]
+    },
+    {
+        "name": "Blissful Haven",
+        "price": 135,
+        "image": "",
+        "description":"",
+        "likes": 87,
+        "reviews": [
+            "Lovely room!"
+        ]
+    },
+    {
+        "name": "Dreamy Sanctuary",
+        "price": 888,
+        "image": "",
+        "description":"",
+        "likes": 18,
+        "reviews": [
+            "Every penny was worth it! This was the gateaway I need!"
+        ]
+    },
+    {
+        "name": "Oasis of Luxury",
+        "price": 777,
+        "image": "",
+        "description":"",
+        "likes": 17,
+        "reviews": [
+            "The guest service was way better than chick-fil-a customer serivce! I felt like I was in a dream! I hated to leave!"
+        ]
+    }
+    
+    
+]}
