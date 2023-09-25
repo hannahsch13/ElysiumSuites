@@ -3,8 +3,8 @@
     {
         "name": "Blissful Haven",
         "price": 135,
-        "image": "",
-        "description":"",
+        "image": "https://placehold.jp/150x150.png",
+        "description":"Insert description",
         "likes": 28,
         "reviews": [
             "Lovely room!",
@@ -14,8 +14,8 @@
     {
         "name": "Celestial Chamber",
         "price": 129,
-        "image": "",
-        "description":"",
+        "image": "https://placehold.jp/150x150.png",
+        "description":"Insert description",
         "likes": 67,
         "reviews": [
             "Great aesthetics!",
@@ -25,30 +25,30 @@
     {
         "name": "Majestic Bliss",
         "price": 177,
-        "image": "",
-        "description":"",
+        "image": "https://placehold.jp/150x150.png",
+        "description":"Insert description",
         "likes": 45,
         "reviews": [
             "Very cozy!",
-            "Felt like I was royality here!"
+            "Felt like I was royalty here!"
         ]
     },
     {
         "name": "Angelic Abode",
         "price": 175,
-        "image": "",
-        "description":"",
+        "image": "https://placehold.jp/150x150.png",
+        "description":"Insert description",
         "likes": 28,
         "reviews": [
-            "A warm welcomie vibe! Love it!",
+            "A warm welcoming vibe! Love it!",
             "Great experience will be booking room again!"
         ]
     },
     {
         "name": "Blissful Haven",
         "price": 135,
-        "image": "",
-        "description":"",
+        "image": "https://placehold.jp/150x150.png",
+        "description":"Insert description",
         "likes": 87,
         "reviews": [
             "Lovely room!"
@@ -57,18 +57,18 @@
     {
         "name": "Dreamy Sanctuary",
         "price": 888,
-        "image": "",
-        "description":"",
+        "image": "https://placehold.jp/150x150.png",
+        "description":"Insert description",
         "likes": 18,
         "reviews": [
-            "Every penny was worth it! This was the gateaway I need!"
+            "Every penny was worth it! This was the getaway I need!"
         ]
     },
     {
         "name": "Oasis of Luxury",
         "price": 777,
-        "image": "",
-        "description":"",
+        "image": "https://placehold.jp/150x150.png",
+        "description":"Insert description",
         "likes": 17,
         "reviews": [
             "The guest service was way better than chick-fil-a customer serivce! I felt like I was in a dream! I hated to leave!"
