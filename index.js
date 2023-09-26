@@ -1,7 +1,5 @@
 //URLS
 url =  "http://localhost:3000/hotelRooms"
-//Fetch
-
 
 //Elements
 const roomMenu = document.querySelector('#rooms-menu')
@@ -17,6 +15,7 @@ const roomPrice = document.querySelector('.price')
 const roomLikes = document.querySelector(".likes")
 // console.log(roomLikes)
 const reviewDisplay = document.querySelector("#reviews")
+reviewDisplay.innerHTML = ""
 //  console.log(reviewDisplay)
 const form = document.getElementById("review-form")
 
@@ -34,22 +33,19 @@ fetch(url)
             roomDescription.textContent = roomObj.description
             roomPrice.textContent = roomObj.price
             roomLikes.textContent = `${roomObj.likes} likes`
-            reviewDisplay.textContent = roomObj.reviews
+            // reviewDisplay.textContent = roomObj.reviews
             // console.log(roomObj.reviews)
-                // roomObj.reviews.forEach(review => {
-                //     const reviewLi = document.createElement('li') 
+            reviewDisplay.innerHTML = ""
+            roomObj.reviews.forEach(review => {
+                const reviewLi = document.createElement('li') 
                 //     console.log(review)   
-                //     reviewLi.textContent = review
-                //     // reviewDisplay.append(reviewLi)
-                //     })
-
+                reviewLi.textContent = review
+                reviewDisplay.append(reviewLi)
+            })
         })
-                
-         roomMenu.append(imgMenu)
+        roomMenu.append(imgMenu)
     }) 
 })
-
-
 
 form.addEventListener('submit', (event) => {
    event.preventDefault()
