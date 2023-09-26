@@ -3,7 +3,7 @@
     {
         "id": 1,
         "name": "Blissful Haven",
-        "price": 135,
+        "price": "$135 per night",
         "image": "https://placehold.jp/150x150.png",
         "description":"Insert description",
         "likes": 28,
@@ -15,7 +15,7 @@
     {
         "id": 2,
         "name": "Celestial Chamber",
-        "price": 129,
+        "price": "$129 per night",
         "image": "https://placehold.jp/150x150.png",
         "description":"Insert description",
         "likes": 67,
@@ -27,7 +27,7 @@
     {
         "id": 3,
         "name": "Majestic Bliss",
-        "price": 177,
+        "price": "$177 per night",
         "image": "https://placehold.jp/150x150.png",
         "description":"Insert description",
         "likes": 45,
@@ -39,7 +39,7 @@
     {
         "id": 4,
         "name": "Angelic Abode",
-        "price": 175,
+        "price": "$175 per night",
         "image": "https://placehold.jp/150x150.png",
         "description":"Insert description",
         "likes": 28,
@@ -51,7 +51,7 @@
     {
         "id": 5,
         "name": "Blissful Haven",
-        "price": 135,
+        "price": "$135 per night",
         "image": "https://placehold.jp/150x150.png",
         "description":"Insert description",
         "likes": 87,
@@ -62,7 +62,7 @@
     {
         "id": 6,
         "name": "Dreamy Sanctuary",
-        "price": 888,
+        "price":"$888 per night",
         "image": "https://placehold.jp/150x150.png",
         "description":"Insert description",
         "likes": 18,
@@ -73,7 +73,7 @@
     {
         "id": 7,
         "name": "Oasis of Luxury",
-        "price": 777,
+        "price": "$777 per night ",
         "image": "https://placehold.jp/150x150.png",
         "description":"Insert description",
         "likes": 17,
