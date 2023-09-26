@@ -1,11 +1,5 @@
 //URLS
 url =  "http://localhost:3000/hotelRooms"
-//Fetch
-fetch(url)
-.then(resp=> resp.json())
-.then(promise => {
-    renderImage(promise)
-})
 
 //Elements
 const roomMenu = document.querySelector('#rooms-menu')
@@ -20,45 +14,44 @@ const roomPrice = document.querySelector('.price')
 // console.log(roomPrice)
 const roomLikes = document.querySelector(".likes")
 // console.log(roomLikes)
-const reviews = document.getElementById("reviews-display")
-
+const reviewDisplay = document.querySelector("#reviews")
+reviewDisplay.innerHTML = ""
+//  console.log(reviewDisplay)
 const form = document.getElementById("review-form")
 
-
-
-function renderImage(arrRooms){
+fetch(url)
+.then(resp=> resp.json())
+.then(arrRooms => {
     arrRooms.forEach(roomObj => {
         // console.log(roomObj)
-    const imgMenu = document.createElement("img")
-    imgMenu.src = roomObj.image
-    imgMenu.addEventListener("click", ()=>{
-        console.log('click')
-        detailImage.src = roomObj.image
-         roomName.textContent = roomObj.name
-         roomDescription.textContent = roomObj.description
-         roomPrice.textContent = roomObj.price
-         roomLikes.textContent = `${roomObj.likes} likes `
-         reviews.textContent = roomObj.reviews 
-        const reviewList = document.createElement('li')
-        reviews.append(reviewList)  
-        console.log(reviewList)
-    })
-
-    roomMenu.append(imgMenu)
+        const imgMenu = document.createElement("img")
+        imgMenu.src = roomObj.image
+        imgMenu.addEventListener("click", ()=>{
+            // console.log('click')
+            detailImage.src = roomObj.image
+            roomName.textContent = roomObj.name
+            roomDescription.textContent = roomObj.description
+            roomPrice.textContent = roomObj.price
+            roomLikes.textContent = `${roomObj.likes} likes`
+            // reviewDisplay.textContent = roomObj.reviews
+            // console.log(roomObj.reviews)
+            reviewDisplay.innerHTML = ""
+            roomObj.reviews.forEach(review => {
+                const reviewLi = document.createElement('li') 
+                //     console.log(review)   
+                reviewLi.textContent = review
+                reviewDisplay.append(reviewLi)
+            })
+        })
+        roomMenu.append(imgMenu)
     }) 
-}
+})
 
 form.addEventListener('submit', (event) => {
    event.preventDefault()
-    const review = event.target.reviews.value
-    const newReview= {
-    review: reviews
-     }
-    
-     function renderReview(newReview) {
-        reviews.textContent = roomObj.reviews 
-        const reviewList = document.createElement('li')
-        reviews.append(reviewList) 
-     }
-     event.target.reset()
+    //   console.log(event.target.review.value)  
+        const newReview = document.createElement('li')
+        newReview.textContent = event.target.review.value
+        reviewDisplay.append(newReview) 
+        event.target.reset()
 })
