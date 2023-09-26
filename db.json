@@ -5,7 +5,7 @@
         "name": "Blissful Haven",
         "price": "$135 per night",
         "image": "https://placehold.jp/150x150.png",
-        "description":"Insert description",
+        "description":"abc",
         "likes": 28,
         "reviews": [
             "Lovely room!",
@@ -17,7 +17,7 @@
         "name": "Celestial Chamber",
         "price": "$129 per night",
         "image": "https://placehold.jp/150x150.png",
-        "description":"Insert description",
+        "description":"efg",
         "likes": 67,
         "reviews": [
             "Great aesthetics!",
@@ -29,7 +29,7 @@
         "name": "Majestic Bliss",
         "price": "$177 per night",
         "image": "https://placehold.jp/150x150.png",
-        "description":"Insert description",
+        "description":"hijk",
         "likes": 45,
         "reviews": [
             "Very cozy!",
@@ -41,7 +41,7 @@
         "name": "Angelic Abode",
         "price": "$175 per night",
         "image": "https://placehold.jp/150x150.png",
-        "description":"Insert description",
+        "description":"lmnop",
         "likes": 28,
         "reviews": [
             "A warm welcoming vibe! Love it!",
@@ -53,7 +53,7 @@
         "name": "Blissful Haven",
         "price": "$135 per night",
         "image": "https://placehold.jp/150x150.png",
-        "description":"Insert description",
+        "description":"qrs",
         "likes": 87,
         "reviews": [
             "Lovely room!"
@@ -64,7 +64,7 @@
         "name": "Dreamy Sanctuary",
         "price":"$888 per night",
         "image": "https://placehold.jp/150x150.png",
-        "description":"Insert description",
+        "description":"tuv",
         "likes": 18,
         "reviews": [
             "Every penny was worth it! This was the getaway I need!"
@@ -75,7 +75,7 @@
         "name": "Oasis of Luxury",
         "price": "$777 per night ",
         "image": "https://placehold.jp/150x150.png",
-        "description":"Insert description",
+        "description":"wxyz",
         "likes": 17,
         "reviews": [
             "The guest service was way better than chick-fil-a customer serivce! I felt like I was in a dream! I hated to leave!"

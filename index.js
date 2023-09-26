@@ -20,6 +20,9 @@ const roomPrice = document.querySelector('.price')
 // console.log(roomPrice)
 const roomLikes = document.querySelector(".likes")
 // console.log(roomLikes)
+const reviews = document.getElementById("reviews-display")
+
+const form = document.getElementById("review-form")
 
 
 
@@ -32,11 +35,30 @@ function renderImage(arrRooms){
         console.log('click')
         detailImage.src = roomObj.image
          roomName.textContent = roomObj.name
-         roomDescription.textContent = "insert"
+         roomDescription.textContent = roomObj.description
          roomPrice.textContent = roomObj.price
          roomLikes.textContent = `${roomObj.likes} likes `
+         reviews.textContent = roomObj.reviews 
+        const reviewList = document.createElement('li')
+        reviews.append(reviewList)  
+        console.log(reviewList)
     })
 
     roomMenu.append(imgMenu)
     }) 
 }
+
+form.addEventListener('submit', (event) => {
+   event.preventDefault()
+    const review = event.target.reviews.value
+    const newReview= {
+    review: reviews
+     }
+    
+     function renderReview(newReview) {
+        reviews.textContent = roomObj.reviews 
+        const reviewList = document.createElement('li')
+        reviews.append(reviewList) 
+     }
+     event.target.reset()
+})
