@@ -19,6 +19,8 @@ reviewDisplay.innerHTML = ""
 //  console.log(reviewDisplay)
 const form = document.getElementById("review-form")
 
+const button = document.getElementById("like-bttn")
+
 fetch(url)
 .then(resp=> resp.json())
 .then(arrRooms => {
@@ -55,3 +57,18 @@ form.addEventListener('submit', (event) => {
         reviewDisplay.append(newReview) 
         event.target.reset()
 })
+
+const reviewRemind = document.getElementById("reviews")
+console.log(reviewRemind)
+    reviewRemind.addEventListener('mouseover', function(){
+            alert("Don't forget to leave a review! ");})
+    
+    
+            //button.innerText = "Like ❤️"
+    //button.addEventListener('click', updateLikes)
+
+//function updateLikes 
+    
+
+
+   // console.log(imgMenu)
