@@ -20,8 +20,8 @@ const roomPrice = document.querySelector('.price')
 // console.log(roomPrice)
 const roomLikes = document.querySelector(".likes")
 // console.log(roomLikes)
-const reviews = document.getElementById("reviews-display")
-
+const reviews = document.querySelector(".reviews-display")
+// console.log(reviews)
 const form = document.getElementById("review-form")
 
 
