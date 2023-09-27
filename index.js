@@ -64,7 +64,7 @@ console.log(reviewRemind)
             alert("Don't forget to leave a review! ");})
     
     
-            //button.innerText = "Like ❤️"
+            button.innerText = "Like ❤️"
     //button.addEventListener('click', updateLikes)
 
 //function updateLikes 
