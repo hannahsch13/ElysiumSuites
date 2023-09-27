@@ -1,86 +1,85 @@
 {
-    "hotelRooms":[ 
+  "hotelRooms": [
     {
-        "id": 1,
-        "name": "Blissful Haven",
-        "price": "$135 per night",
-        "image": "https://windermere-tranquil-retreat.co.uk/wp-content/uploads/2018/09/the-white-room-9.jpg",
-        "description":"Indulge in pure tranquility in our Blissful Haven. This serene retreat offers a spacious haven of relaxation with a sumptuous king-sized bed, a private balcony for peaceful moments, and a spa-like bathroom sanctuary. Immerse yourself in comfort and find your own piece of paradise.",
-        "likes": 28,
-        "reviews": [
-            "Lovely room!",
-            "The bed was so cozy!"
-        ]
+      "id": 1,
+      "name": "Blissful Haven",
+      "price": "$135 per night",
+      "image": "https://windermere-tranquil-retreat.co.uk/wp-content/uploads/2018/09/the-white-room-9.jpg",
+      "description": "Indulge in pure tranquility in our Blissful Haven. This serene retreat offers a spacious haven of relaxation with a sumptuous king-sized bed, a private balcony for peaceful moments, and a spa-like bathroom sanctuary. Immerse yourself in comfort and find your own piece of paradise.",
+      "likes": 29,
+      "reviews": [
+        "Lovely room!",
+        "The bed was so cozy!"
+      ]
     },
     {
-        "id": 2,
-        "name": "Celestial Chamber",
-        "price": "$129 per night",
-        "image": "https://images.unsplash.com/photo-1542928658-22251e208ac1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80",
-        "description":"Elysium Suites presents the Celestial Chamber: a heavenly retreat where you can indulge in luxury with a starlit skyline view. Enjoy a king-sized bed, a private patio with stunning views, and a divine bathroom with deluxe amenities. Surrender to celestial comfort at its finest.",
-        "likes": 67,
-        "reviews": [
-            "Great aesthetics!",
-            "I didn't want to go home!"
-        ]
+      "id": 2,
+      "name": "Celestial Chamber",
+      "price": "$129 per night",
+      "image": "https://images.unsplash.com/photo-1542928658-22251e208ac1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80",
+      "description": "Elysium Suites presents the Celestial Chamber: a heavenly retreat where you can indulge in luxury with a starlit skyline view. Enjoy a king-sized bed, a private patio with stunning views, and a divine bathroom with deluxe amenities. Surrender to celestial comfort at its finest.",
+      "likes": 67,
+      "reviews": [
+        "Great aesthetics!",
+        "I didn't want to go home!"
+      ]
     },
     {
-        "id": 3,
-        "name": "Majestic Bliss",
-        "price": "$177 per night",
-        "image": "https://www.white-ibiza.com/wp-content/uploads/2020/08/white-ibiza-luxury-hotel-suite-nobu-hotel-ibiza-bay-penthouse-03.jpeg",
-        "description":"Indulge in pure luxury and serenity within the Majestic Bliss room. Featuring a regal king-sized bed, a private balcony with breathtaking vistas, and a lavish bathroom adorned with opulent amenities, this room at Elysium Suites offers an unparalleled escape into tranquility and elegance.",
-        "likes": 45,
-        "reviews": [
-            "Very cozy!",
-            "Felt like I was royalty here!"
-        ]
+      "id": 3,
+      "name": "Majestic Bliss",
+      "price": "$177 per night",
+      "image": "https://www.white-ibiza.com/wp-content/uploads/2020/08/white-ibiza-luxury-hotel-suite-nobu-hotel-ibiza-bay-penthouse-03.jpeg",
+      "description": "Indulge in pure luxury and serenity within the Majestic Bliss room. Featuring a regal king-sized bed, a private balcony with breathtaking vistas, and a lavish bathroom adorned with opulent amenities, this room at Elysium Suites offers an unparalleled escape into tranquility and elegance.",
+      "likes": 45,
+      "reviews": [
+        "Very cozy!",
+        "Felt like I was royalty here!"
+      ]
     },
     {
-        "id": 4,
-        "name": "Angelic Abode",
-        "price": "$175 per night",
-        "image": "https://i.pinimg.com/originals/fa/36/26/fa3626ca0626e423af4ce9fef8e1187c.jpg",
-        "description":"The Angelic Abode room epitomizes minimalistic elegance and tranquility. Immerse yourself in serene comfort with a chic, king-sized bed and a sleek, modern bathroom featuring divine amenities. Experience the celestial charm of Elysium Suites within this stylish and serene retreat.",
-        "likes": 28,
-        "reviews": [
-            "A warm welcoming vibe! Love it!",
-            "Great experience will be booking room again!"
-        ]
+      "id": 4,
+      "name": "Angelic Abode",
+      "price": "$175 per night",
+      "image": "https://i.pinimg.com/originals/fa/36/26/fa3626ca0626e423af4ce9fef8e1187c.jpg",
+      "description": "The Angelic Abode room epitomizes minimalistic elegance and tranquility. Immerse yourself in serene comfort with a chic, king-sized bed and a sleek, modern bathroom featuring divine amenities. Experience the celestial charm of Elysium Suites within this stylish and serene retreat.",
+      "likes": 28,
+      "reviews": [
+        "A warm welcoming vibe! Love it!",
+        "Great experience will be booking room again!"
+      ]
     },
     {
-        "id": 5,
-        "name": "Aurora Dreamscape",
-        "price": "$135 per night",
-        "image": "https://www.contemporist.com/wp-content/uploads/2016/12/floating-bed-131216-1053-22-800x600.jpg",
-        "description":"Unwind in the Aurora Dreamscape room, where enchantment meets modern luxury. Experience the surreal with a full-size floating bed, seemingly suspended in air, under a mesmerizing celestial ceiling. Your dreams will take flight in this unique and ethereal space at Elysium Suites.",
-        "likes": 87,
-        "reviews": [
-            "Lovely room!"
-        ]
+      "id": 5,
+      "name": "Aurora Dreamscape",
+      "price": "$135 per night",
+      "image": "https://www.contemporist.com/wp-content/uploads/2016/12/floating-bed-131216-1053-22-800x600.jpg",
+      "description": "Unwind in the Aurora Dreamscape room, where enchantment meets modern luxury. Experience the surreal with a full-size floating bed, seemingly suspended in air, under a mesmerizing celestial ceiling. Your dreams will take flight in this unique and ethereal space at Elysium Suites.",
+      "likes": 87,
+      "reviews": [
+        "Lovely room!"
+      ]
     },
     {
-        "id": 6,
-        "name": "Dreamy Sanctuary",
-        "price":"$888 per night",
-        "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/07/23/13/hotel_0.jpg",
-        "description":"Indulge in opulence at the Dreamy Sanctuary. This lavish haven offers unrivaled luxury, exuding spaciousness and extravagance. Immerse yourself in a world of extravagance with an array of amenities that cater to your every desire. In this exclusive retreat at Elysium Suites, dreams become a reality, but only for those who appreciate the finest in life.",
-        "likes": 18,
-        "reviews": [
-            "Every penny was worth it! This was the getaway I need!"
-        ]
+      "id": 6,
+      "name": "Dreamy Sanctuary",
+      "price": "$888 per night",
+      "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/07/23/13/hotel_0.jpg",
+      "description": "Indulge in opulence at the Dreamy Sanctuary. This lavish haven offers unrivaled luxury, exuding spaciousness and extravagance. Immerse yourself in a world of extravagance with an array of amenities that cater to your every desire. In this exclusive retreat at Elysium Suites, dreams become a reality, but only for those who appreciate the finest in life.",
+      "likes": 18,
+      "reviews": [
+        "Every penny was worth it! This was the getaway I need!"
+      ]
     },
     {
-        "id": 7,
-        "name": "Oasis of Luxury",
-        "price": "$777 per night ",
-        "image": "https://robbreport.com/wp-content/uploads/2017/08/katara-living-room.jpg",
-        "description":"Elysium Suites presents the Oasis of Luxury Suite: an expansive haven of extravagance. This spacious retreat features a king-sized bed, a fully stocked mini-bar, and a spa-like en-suite bathroom. Enjoy entertainment with a state-of-the-art system and stay connected with high-speed Wi-Fi. Bask in breathtaking views and personalized service for an unparalleled experience in sophistication and comfort.",
-        "likes": 17,
-        "reviews": [
-            "The guest service was way better than chick-fil-a customer serivce! I felt like I was in a dream! I hated to leave!"
-        ]
+      "id": 7,
+      "name": "Oasis of Luxury",
+      "price": "$777 per night ",
+      "image": "https://robbreport.com/wp-content/uploads/2017/08/katara-living-room.jpg",
+      "description": "Elysium Suites presents the Oasis of Luxury Suite: an expansive haven of extravagance. This spacious retreat features a king-sized bed, a fully stocked mini-bar, and a spa-like en-suite bathroom. Enjoy entertainment with a state-of-the-art system and stay connected with high-speed Wi-Fi. Bask in breathtaking views and personalized service for an unparalleled experience in sophistication and comfort.",
+      "likes": 17,
+      "reviews": [
+        "The guest service was way better than chick-fil-a customer serivce! I felt like I was in a dream! I hated to leave!"
+      ]
     }
-    
-    
-]}
+  ]
+}
