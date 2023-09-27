@@ -19,9 +19,13 @@ const reviewDisplay = document.querySelector("#reviews")
 reviewDisplay.innerHTML = ""
 //  console.log(reviewDisplay)
 const form = document.getElementById("review-form")
-
+// console.log(form)
 const button = document.getElementById("like-bttn")
 
+//const oldRev = document.getElementById('reviews')
+
+//const submitBttn = document.querySelector('.submit')
+//console.log(submitBttn)
 
 
 fetch(url)
@@ -34,7 +38,9 @@ function renderRoom(roomObj){
     imgMenu.src = roomObj.image
     imgMenu.addEventListener("click", ()=>{
         // console.log('click')
+        //oldRev.dataset.roomReview= roomObj.review
         button.dataset.roomId = roomObj.id
+        form.dataset.roomId= roomObj.id
         detailImage.src = roomObj.image
         roomName.textContent = roomObj.name
         roomDescription.textContent = roomObj.description
@@ -58,14 +64,14 @@ button.addEventListener('click', ()=>{
     let click =  ++currLikes
     roomLikes.textContent = `${click} likes`
     console.log(click)
-    domPatch(click)
+    likePatch(click)
     console.log(button)
 }) 
 
 
-function domPatch(newLike){
+function likePatch(newLike){
     console.log(newLike)
-
+    
     fetch(`http://localhost:3000/hotelRooms/${button.dataset.roomId}`, {
         method: 'PATCH',
         headers:{
@@ -86,9 +92,37 @@ event.preventDefault()
     //   console.log(event.target.review.value)  
         const newReview = document.createElement('li')
         newReview.textContent = event.target.review.value
+        const revId = newReview.textContent
         reviewDisplay.append(newReview) 
         event.target.reset()
-})
+        reviewPatch(revId)
+        console.log(revId)
+    })
+    
+
+    //fetch(url)
+   // .then(resp=> resp.json())
+    //.then(arrRooms => {
+   // })
+
+
+
+    function reviewPatch(upRev) {
+        fetch(`http://localhost:3000/hotelRooms/${form.dataset.roomId}`, {
+            method: "PATCH",
+            headers:{
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                reviews: [upRev]
+            })
+        })
+        .then(res => res.json())
+        .then(data => console.log(data))
+    }
+  
+    
+    
 
 
 const reviewRemind = document.getElementById("reviews")
@@ -97,6 +131,8 @@ const reviewRemind = document.getElementById("reviews")
         alert("Don't forget to leave a review! ")
     })
 
+
+    //fetching the existing reviews first and then appending the new review to the existing array and then sending that as a patch request
 
 
 
