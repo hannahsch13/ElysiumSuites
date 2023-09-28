@@ -6,7 +6,7 @@
       "price": "$135 per night",
       "image": "https://windermere-tranquil-retreat.co.uk/wp-content/uploads/2018/09/the-white-room-9.jpg",
       "description": "Indulge in pure tranquility in our Blissful Haven. This serene retreat offers a spacious haven of relaxation with a sumptuous king-sized bed, a private balcony for peaceful moments, and a spa-like bathroom sanctuary. Immerse yourself in comfort and find your own piece of paradise.",
-      "likes": 29,
+      "likes": 34,
       "reviews": [
         "Lovely stay!"
       ]
@@ -55,6 +55,7 @@
       "description": "Unwind in the Aurora Dreamscape room, where enchantment meets modern luxury. Experience the surreal with a full-size floating bed, seemingly suspended in air, under a mesmerizing celestial ceiling. Your dreams will take flight in this unique and ethereal space at Elysium Suites.",
       "likes": 89,
       "reviews": [
+        "Amazing stay!",
         "Lovely stay!"
       ]
     },
@@ -66,7 +67,8 @@
       "description": "Indulge in opulence at the Dreamy Sanctuary. This lavish haven offers unrivaled luxury, exuding spaciousness and extravagance. Immerse yourself in a world of extravagance with an array of amenities that cater to your every desire. In this exclusive retreat at Elysium Suites, dreams become a reality, but only for those who appreciate the finest in life.",
       "likes": 22,
       "reviews": [
-        "Every penny was worth it! This was the getaway I need!"
+        "Amazing room!",
+        "I loved it here!"
       ]
     },
     {
@@ -75,9 +77,10 @@
       "price": "$777 per night ",
       "image": "https://robbreport.com/wp-content/uploads/2017/08/katara-living-room.jpg",
       "description": "Elysium Suites presents the Oasis of Luxury Suite: an expansive haven of extravagance. This spacious retreat features a king-sized bed, a fully stocked mini-bar, and a spa-like en-suite bathroom. Enjoy entertainment with a state-of-the-art system and stay connected with high-speed Wi-Fi. Bask in breathtaking views and personalized service for an unparalleled experience in sophistication and comfort.",
-      "likes": 21,
+      "likes": 23,
       "reviews": [
-        "The guest service was way better than chick-fil-a customer serivce! I felt like I was in a dream! I hated to leave!"
+        "The guest service was way better than chick-fil-a customer serivce! I felt like I was in a dream! I hated to leave!",
+        "Such an amazing and luxurious room!"
       ]
     }
   ]
