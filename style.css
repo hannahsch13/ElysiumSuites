@@ -1,67 +1,121 @@
 * {
     margin: 0;
-    /* font-family: Arial, Helvetica, sans-serif; */
+    background-color: white;
     box-sizing: border-box;
   }
   
    body {
     padding: 1rem;
     /* text-align: center; */
-    background-color: #ffffff;
+    background-color: #8d3232;
     /* display: flex; */
-    flex-direction: column;
-    justify-content: center;
+    /* flex-direction: column; */
+    justify-content: space-between;
     align-items: center;
   } 
   
- 
+  
+  
   header h1 {
     text-align: left;
     padding-left: 2rem;
     height: 80px;
     width: 100%;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    font-family: cursive;
+    color: #d4933e (255, 255, 255);
+    /* background-color:black (0, 0, 0); */
+    font-family: "Lucida Handwriting", cursive;
     font-size: 3rem;
+    
   }
 
   header img {
     float: right;
+    height: 100%
   }
+
+#rating-contact h5 {
+    text-align: right;
+    color: #F1C40F;
+}
+
+#rating-contact h4 {
+    text-align: left;
+}
 
 #rooms-menu {
     
     display: flex;
     overflow-x: auto;
-    margin: 1rem 0;
+    margin: 0;
     justify-content: center;
 }
 
 #rooms-menu img {
-    flex: 0 1 auto;
-    height: 150px;
-    width: 150px;
+    /* flex: 0 1 auto; */
+    flex: 1
+    height: 175px;
+    width: 175px;
     margin-right: 0.5rem;
     cursor: pointer;
-    filter: drop-shadow(16px 16px 10px rgb(238, 233, 224,0.8));
+    filter: drop-shadow(16px 16px 10px rgba(223, 152, 82, 0.8));
 }
 
 
 
 .grid-container img {
     display: flex;
-    height: 40rem;
-    width: 40rem;
+    height: 300px;
+    width: 400px;
     margin-right: 0.5rem;
 }
 
+.grid-child-one h3 {
+    text-align: center;
+    font-size: 24px;
+    font-family: "Lucida Handwriting", cursive;
+}
+
+.grid-child-one ul {
+    text-align: left;
+}
+
+.grid-child-one li {
+    font-size: 20px;
+}
+
+.grid-child-two h3 {
+    font-size: 24px;
+    font-family: "Lucida Handwriting", cursive;    
+}
 .details { 
-    display: flexbox;
+    /* display: flexbox; */
     width: 75%;
     /* float: right; */
     padding: 20px;
 } 
+
+.details h3 {
+    font-size: 30px;
+    font-family: "Lucida Handwriting", cursive;
+}
+
+.details p {
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.details h4 {
+    font-size: 20px;
+}
+
+.details h6 {
+    font-size: 18px;
+}
+
+.details #like-bttn {
+    font-size: 15px;
+}
 
 #name{
     text-align: center;
@@ -74,7 +128,7 @@
 #room-details {
     font-size: 2rem;
     text-align:center;
-   background-color: rgb(255, 255, 255); 
+    background-color: rgb(255, 255, 255); 
 }
 
 .reviews-display {
@@ -89,12 +143,16 @@
 }
 
 .input-text {
-    height: 50px;
+    height: 100px;
     width: 300px;
     inline-size: 300px;
     
     /* need to figure out how to make text wrap within text box */
 }
+
+form {
+    text-align: center;
+} 
 
 footer{
     margin-top: 40px;
